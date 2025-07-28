@@ -30,7 +30,18 @@ To set up the project, follow these steps:
    cd fc-mobile
    ```
 
-2. Install the required dependencies:
+2. Create and activate a virtual environment:
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. (macOS only) Install SDL2 dependencies required by pygame:
+   ```
+   brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf
+   ```
+
+4. Install the required Python dependencies:
    ```
    pip install -r requirements.txt
    ```
